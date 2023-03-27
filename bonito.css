@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    outline-width: 0px;
+    font-family: Oswald;
+}
+body {
+    margin: 0px;
+
+    
+}
+.titulo {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: #65864a;
+    font-family: Tilt+War;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+   
+}
+.img1 {
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    object-fit: cover;
+
+}
+nav {
+    background-color: #65864a;
+    color: black;
+}
+
+nav ul {
+    display: table;
+    width: 100%;
+    font-family: Tilt+Warp;
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 25px;
+    display: table-cell;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Tilt+Warp;
+    padding-top: 5px;
+    color: black;
+}
+
+nav ul li:hover {
+    background-color: #82b35b;
+    color: aliceblue;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    color: aliceblue;
+}
+h2 {
+    color: #82b35b;
+     text-align: center;
+    font-size: 35px;
+    font-family: Tilt+Warp;
+
+}
+.sumario {
+    margin-left: 100px;
+    font-size: 25px;
+    font-family: Oswald;
+    line-height: 67px;
+    text-decoration: none;
+    color: #82b35b;
+}
+hr {
+    color: black ;
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    margin-left: 80px;
+    margin-right: 20%;
+    font-size: 25px;
+    text-align: justify;
+    color:#666;
+
+}
+.faixa {
+    background-color: #65864a;
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    color: #65864a;
+}
+.agenda30-sumario {
+    width: 100%;
+    height: 600px;
+
+}
+.titulo-agenda30 {
+    text-align: left;
+    margin-left: 125px;
+    font-family: Oswald;
+}
+.img-inicio {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    margin:0px;
+}
+.texto2 {
+    margin-right: 10%;
+}
+.subtemas {
+    color:#8cd451;
+
+}
+.texto1 {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+@media (max-width:750px){
+    .img-inicio{
+        height: 500px;
+        margin: 0px;
+    }
+    .froggers h3 {
+        font-size: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .embrapa {
+        height: 30%;
+        width: 40%;
+    }
+}
+@media (max-width:575px) {
+    nav ul li{
+        font-size: 20px;
+    }
+    .img-inicio {
+        height: 450px;
+        margin: 0px;
+    }
+    .embrapa {
+        background-color:#1b202b;
+        border-radius: 20px;
+        height: 450px;
+        width: 550px;
+    }
+    .img-inicio {
+        margin: 0px;
+    }
+}
+@media (max-width:455px) {
+    nav ul li{
+        font-size: 15px;
+    }
+}
+@media (max-width:500px) {
+    .img-inicio {
+        height: 400px;
+        margin: 0px;
+    }
+    .faixa {
+        height: 30px;
+    }
+    nav ul li {
+     height: 30px;  
+     padding-top: 5px; 
+    }
+}
+@media (max-width:440px) {
+    .img-inicio {
+        height: 350px;
+        margin: 0px;
+        
+    }
+    .titulo-agenda30 {
+        margin: 0px;
+        text-align: center;
+    }
+}
+@media (max-width:575px) {
+    h3 {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 80px;
+    }
+    .froggers h3 {
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.semente-da-vida {
+    width: 300px;
+    align-items: center;
+    position: absolute;
+}
+h4 {
+    text-align: left;
+    
+    
+}
+.graficos {
+    width: calc(60% - 30px);
+    height: calc(50% - 30px);
+    object-fit: fill;
+    margin: auto;
+}
+.graf {
+    margin: auto;
+    background-color: #82b35b;
+    border-radius: 20px;
+    width: 800px;
+}
+.grafic {
+    font-size: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+
+}
+.h3-graficos {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+
+}
+.grafic a{
+    text-decoration: none;
+    color: #000;
+}
+@media (max-width="550px") {
+    .graficos {
+        width: 300px;
+        height: 240px;
+        object-fit: cover;
+        margin: 0px;
+    }
+}
+ul li h2 {
+    text-decoration: none;
+    color: rgb(91, 184, 68);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 10%;
+}
