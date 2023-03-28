@@ -326,8 +326,7 @@ ul li h2 {
 }
 @media  (max-width: 450px) {
     .graficos{
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 200px;
+        margin:auto;
     }
 }
