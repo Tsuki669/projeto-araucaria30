@@ -231,9 +231,17 @@ h4 {
     
 }
 .graficos {
-    width: 280px;
+    width: 50%;
     object-fit: fill;
-   margin: auto;
+   margin-left: 25%;
+   margin-right: 25%;
+
+}
+.graficos1 {
+    width: 40%;
+    object-fit: fill;
+   margin-left: 30%;
+   margin-right: 30%;
 
 }
 .graf {
@@ -259,12 +267,11 @@ h4 {
     text-decoration: none;
     color: #000;
 }
-@media (max-width="550px") {
+@media (max-width: 550px) {
     .graficos {
-        width: 300px;
-        height: 240px;
-        object-fit: cover;
-        margin: 0px;
+        width: 280px;
+        object-fit: fill;
+        margin: auto;
     }
     .h3-graficos {
         color: #000;
@@ -279,6 +286,13 @@ h4 {
         text-align: center;
     
     }
+    .graficos1 {
+        width: 80%;
+        object-fit: fill;
+       margin-left: 10%;
+       margin-right: 10%;
+    
+    }
 }
 ul li h2 {
     text-decoration: none;
@@ -287,13 +301,33 @@ ul li h2 {
     text-align: left;
     margin-left: 10%;
 }
-@media (max-width=550px){
+@media (max-width: 550px){
     .h3-graficos{
         margin-left: 80px;
         margin-right: 20%;
-        font-size: 10px;
+        font-size: 20px;
         text-align: justify;
         color:#666;
     
+    }
+    .graficos {
+        width: 60%;
+        object-fit: fill;
+       margin-left: 20%;
+       margin-right: 20%;
+    
+    }
+    h3   {
+        font-size: 20px;
+    }
+    .grafic {
+        font-size: 15px;
+    }
+}
+@media  (max-width: 450px) {
+    .graficos{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
